@@ -16,7 +16,7 @@
 
 		var map = L.map('map').setView([37.182, -118.804], 10);
 
-    		var nexrad = L.tileLayer.wms("http://services.arcgisonline.com/ArcGIS/services/USA_Topo_Maps/MapServer/WMSServer?request=GetCapabilities&service=WMS", {
+    		var nexrad = L.tileLayer.wms("http://raster.nationalmap.gov/ArcGIS/services/Scanned_Maps/DRG_24k/ImageServer/WMSServer?", {
       			layers: '0',
       			format: 'image/png',
       			transparent: false,
