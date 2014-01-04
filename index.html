@@ -24,9 +24,11 @@
       			transparent: false,
       			crs: L.CRS.EPSG4326,
       			attribution: "Copyright:© 2013 National Geographic Society, i-cubed"
-		}).addTo(map);
+		})
 		
-		var terrain = L.tileLayer("http://{s}.tiles.mapbox.com/v3/geoslo.map-as03yv28/{z}/{x}/{y}.png")
+		var terrain = L.tileLayer("http://{s}.tiles.mapbox.com/v3/geoslo.map-as03yv28/{z}/{x}/{y}.png", {
+			attribution: <a href="https://www.mapbox.com/about/maps/">Mapbox</a>
+		}).addTo(map);
 		
 		$.getJSON("./stretch.geojson", function(data) {
     			var geojson = L.geoJson(data, {
