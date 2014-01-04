@@ -13,6 +13,7 @@
 
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="./leaflet-hash.js"></script>
 	<script>
 
 		var map = L.map('map').setView([37.182, -118.804], 10);
@@ -34,6 +35,8 @@
     		
     		geojson.addTo(map);
 		});
+		
+		var hash = new L.Hash(map);
 
 	</script>
 </body>
