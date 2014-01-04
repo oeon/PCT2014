@@ -27,7 +27,7 @@
 		})
 		
 		var terrain = L.tileLayer("http://{s}.tiles.mapbox.com/v3/geoslo.map-as03yv28/{z}/{x}/{y}.png", {
-			attribution: <a href="https://www.mapbox.com/about/maps/">Mapbox</a>
+			attribution: Mapbox
 		}).addTo(map);
 		
 		$.getJSON("./stretch.geojson", function(data) {
