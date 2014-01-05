@@ -48228,6 +48228,62 @@
           37.19564
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 24.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.61122,
+          37.11342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 24.72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.60561,
+          37.11268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 25.71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.59866,
+          37.10226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Le Conte Ranger Station",
+        "miles": "26.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.59501,
+          37.09402
+        ]
+      }
     }
   ]
 }
