@@ -48144,6 +48144,34 @@
           37.11604
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "muir hut",
+        "miles": 18.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.67095559835433,
+          37.111993889590714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "McClure Meadow Ranger Station",
+        "miles": 9.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.74292,
+          37.18823
+        ]
+      }
     }
   ]
 }
