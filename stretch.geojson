@@ -48284,6 +48284,62 @@
           37.09402
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 28.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.58927,
+          37.06339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 29.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.57975,
+          37.05258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 30.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.56371,
+          37.0528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "campsite",
+        "miles": 33.13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.52634,
+          37.0553
+        ]
+      }
     }
   ]
 }
